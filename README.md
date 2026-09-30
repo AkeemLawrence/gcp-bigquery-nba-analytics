@@ -93,6 +93,20 @@ Example question:
 
 Conversational Analytics interprets the request, analyzes the underlying BigQuery data, summarizes the results, and generates a visualization.
 
+## Results
+
+### BigQuery SQL Analysis
+
+The SQL analysis calculates per-game production across KAT's qualifying 30+ point scoring streaks and visualizes how his scoring output changed over time.
+
+![BigQuery analysis](images/bigquery-analysis.png)
+
+### BigQuery Conversational Analytics
+
+Conversational Analytics uses the BigQuery dataset as a knowledge source to analyze KAT's shooting efficiency across his scoring streaks using natural-language questions.
+
+![Conversational Analytics](images/conversational-analytics.png)
+
 ## Architecture Decisions
 
 **Cloud Storage** serves as the raw-data layer, while **BigQuery** provides the analytical layer.
